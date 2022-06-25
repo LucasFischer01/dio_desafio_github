@@ -1,0 +1,10 @@
+#Title,
+.Subtitle,
+.Post_Title {
+    color: blue;
+}
+
+.Post_Title {
+    font-size: 16px;
+    font-style: italic;
+}
