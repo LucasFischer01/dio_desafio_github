@@ -16,10 +16,12 @@ body {
     font-size: 40px;
     text-transform: uppercase;
 }
-a{
+
+a {
     text-decoration: underline;
     color: #505050;
 }
+
 .Post_Title {
     font-size: 16px;
     font-style: italic;
@@ -44,7 +46,7 @@ a{
 
 }
 
-.contacts_list{
+.contacts_list {
     list-style-type: square;
     padding-left: 15px;
 }
