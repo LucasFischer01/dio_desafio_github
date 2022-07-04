@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align items</title>
+
+    <style>
+        .container {
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item {
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .flex {
+            flex: 1;
+        }
+
+        .center {
+            align-items: center;
+        }
+
+        .stretch {
+            align-items: stretch;
+        }
+
+        .flex-start {
+            align-items: flex-start;
+        }
+
+        .flex-end {
+            align-items: flex-end;
+        }
+
+        .baseline {
+            align-items: baseline;
+        }
+
+        .central {
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+
+        .central .item {
+            flex: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Row</h1>
+    <p>center</p>
+    <scetion class="container center flex">
+        <div class="item">item 1</div>
+        <div class="item">carpe diem quam minimum credula postero</div>
+        <div class="item">item 3 e qualquer outra coisa</div>
+    </scetion>
+
+    <p>stretch</p>
+    <scetion class="container center stretch">
+        <div class="item">item 1</div>
+        <div class="item">carpe diem quam minimum credula postero</div>
+        <div class="item">item 3 e qualquer outra coisa</div>
+    </scetion>
+
+    <p>flex-start</p>
+    <scetion class="container center flex-start">
+        <div class="item">item 1</div>
+        <div class="item">carpe diem quam minimum credula postero</div>
+        <div class="item">item 3 e qualquer outra coisa e ais um pouco</div>
+    </scetion>
+
+    <p>flex-end</p>
+    <scetion class="container center flex-end">
+        <div class="item">item 1</div>
+        <div class="item">carpe diem, memento mori </div>
+        <div class="item">item 3 e qualquer outra coisa e ais um pouco</div>
+    </scetion>
+
+    <p>baselline</p>
+    <scetion class="container center baseline">
+        <div class="item"><br>item 1</div>
+        <div class="item">carpe diem quam minimum credula postero</div>
+        <div class="item">item 3 e qualquer outra coisa e ais um pouco</div>
+    </scetion>
+
+    <h1>Column</h1>
+    <p>center</p>
+    <scetion class="container center flex column">
+        <div class="item">item 1</div>
+        <div class="item">carpe diem quam minimum credula postero</div>
+        <div class="item">item 3 e qualquer outra coisa</div>
+    </scetion>
+
+    <p>stretch</p>
+    <scetion class="container center stretch column">
+        <div class="item">item 1</div>
+        <div class="item">carpe diem quam minimum credula postero</div>
+        <div class="item">item 3 e qualquer outra coisa</div>
+    </scetion>
+
+    <p>flex-start</p>
+    <scetion class="container center flex-start column">
+        <div class="item">item 1</div>
+        <div class="item">carpe diem quam minimum credula postero</div>
+        <div class="item">item 3 e qualquer outra coisa e ais um pouco</div>
+    </scetion>
+
+    <p>flex-end</p>
+    <scetion class="container center flex-end column">
+        <div class="item">item 1</div>
+        <div class="item">carpe diem, memento mori </div>
+        <div class="item">item 3 e qualquer outra coisa e ais um pouco</div>
+    </scetion>
+
+    <p>baselline</p>
+    <scetion class="container center baseline column">
+        <div class="item"><br>item 1</div>
+        <div class="item">carpe diem quam minimum credula postero</div>
+        <div class="item">item 3 e qualquer outra coisa e ais um pouco</div>
+    </scetion>
+
+    <p>Alinhamento Central à tela</p>
+    <section class="container central center">
+        <div class="item">in morte ultima veritas,
+            vincit veritas in omnire</div>
+    </section>
+</body>
+
+</html>
