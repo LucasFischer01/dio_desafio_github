@@ -18,7 +18,7 @@ button {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 2px solid   ;
+    border: 2px solid;
     background-color: rgb(241, 214, 214);
     color: lightcoral;
     font-size: 16pt;
@@ -28,7 +28,7 @@ button {
 
 #counter {
     display: flex;
-    color: whitesmoke;
+
     font-weight: bold;
 }
 
@@ -37,4 +37,17 @@ button {
     align-items: center;
     margin: 0 20px;
     font-size: 16pt;
+    color: whitesmoke;
+}
+
+#NegativeCounter {
+    display: flex;
+    color: rgb(206, 53, 53);
+    font-weight: bold;
+}
+
+#PositiveCounter {
+    display: flex;
+    color: rgb(39, 204, 67);
+    font-weight: bold;
 }
