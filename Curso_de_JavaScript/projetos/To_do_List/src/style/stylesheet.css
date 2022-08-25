@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: rgb(86, 143, 178);
+  border-style: dashed;
+  border-color: blue;
+  justify-content: center;
+}
+
+#card {
+  position: flex;
+  background-color: rgba(56, 95, 119, 0.771);
+  height: auto;
+  width: 80%;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  vertical-align: center;
+  align-items: center;
+}
+
+.tittle {
+  color: whitesmoke;
+  border-style: dashed;
+  border-color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+.list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 100px;
+  grid-gap: 5%;
+  grid-row-gap: 10px;
+  border-style: dashed;
+}
+
+#form {
+  border-color: green;
+  padding-bottom: 20px;
+}
+
+#task-output {
+  border-color: yellow;
+}
+
+.task {
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  min-width: 10px;
+}
+
+.input-button {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  justify-self: center;
+}
+
+.input-button:hover {
+  background-color: rgba(255, 146, 146, 0.447);
+}
+
+input[type=checkbox]:checked + label {
+  color:red;
+  text-decoration: line-through;
+} 
+
+#task {
+  padding-left: 5px;
+}
+
+.excluir{
+  color: brown;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  justify-self: end;
+  
+}
+
+#task:hover {
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#task:checked {
+  text-decoration: line-through;
+}
